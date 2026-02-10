@@ -111,21 +111,23 @@ body {
 
 /* Hero Section */
 .hero-section {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: #fafaf8;
+  color: #333;
   padding: 3rem 2rem;
   text-align: center;
+  border-bottom: 1px solid #e8e8e8;
 }
 
 .hero-section h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
   font-weight: 600;
+  color: #2c3e50;
 }
 
 .hero-section p {
   font-size: 1.2rem;
-  opacity: 0.95;
+  color: #555;
   max-width: 800px;
   margin: 0 auto;
 }
