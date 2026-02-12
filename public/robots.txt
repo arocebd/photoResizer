@@ -1,0 +1,12 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Disallow: /release/
+Disallow: /dist/
+Disallow: /node_modules/
+
+# Sitemap
+Sitemap: https://resizer.khotiyan.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 0

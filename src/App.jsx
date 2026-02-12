@@ -7,6 +7,8 @@ import PdfToImage from './components/PdfToImage'
 import ImageToPdf from './components/ImageToPdf'
 import BackgroundRemover from './components/BackgroundRemover'
 import { ResizeIcon, ConvertIcon, CompressIcon, PdfToImageIcon, ImageToPdfIcon, BackgroundRemoveIcon } from './components/Icons'
+import AdSenseDisplay from './components/AdSense'
+import SEOContent from './components/SEOContent'
 
 function App() {
   const [activeTool, setActiveTool] = useState(null)
@@ -115,25 +117,40 @@ function App() {
       {/* Main Content */}
       <main className="main-content">
         {!activeTool ? (
-          <section className="features-section">
-            <h3>Select a Tool to Get Started</h3>
-            <div className="features-grid">
-              {features.map(feature => {
-                const IconComponent = feature.icon
-                return (
-                  <button
-                    key={feature.id}
-                    className="feature-card"
-                    onClick={() => handleToolClick(feature.id)}
-                  >
-                    <IconComponent />
-                    <h3>{feature.title}</h3>
-                    <p>{feature.description}</p>
-                  </button>
-                )
-              })}
+          <>
+            {/* Top Banner Ad */}
+            <div style={{ marginBottom: '2rem', textAlign: 'center' }}>
+              <AdSenseDisplay adSlot="1234567890" adFormat="horizontal" />
             </div>
-          </section>
+
+            <section className="features-section">
+              <h3>Select a Tool to Get Started</h3>
+              <div className="features-grid">
+                {features.map(feature => {
+                  const IconComponent = feature.icon
+                  return (
+                    <button
+                      key={feature.id}
+                      className="feature-card"
+                      onClick={() => handleToolClick(feature.id)}
+                    >
+                      <IconComponent />
+                      <h3>{feature.title}</h3>
+                      <p>{feature.description}</p>
+                    </button>
+                  )
+                })}
+              </div>
+            </section>
+
+            {/* Middle Content Ad */}
+            <div style={{ margin: '3rem auto', maxWidth: '728px', textAlign: 'center' }}>
+              <AdSenseDisplay adSlot="0987654321" adFormat="horizontal" />
+            </div>
+
+            {/* SEO Content Section */}
+            <SEOContent />
+          </>
         ) : (
           <div className="tool-container">
             <div className="tool-header">
@@ -142,6 +159,12 @@ function App() {
                 ← Back to Tools
               </button>
             </div>
+
+            {/* In-Content Ad (shows when tool is active) */}
+            <div style={{ marginBottom: '2rem' }}>
+              <AdSenseDisplay adSlot="1122334455" adFormat="auto" />
+            </div>
+
             <activeFeature.component />
           </div>
         )}
