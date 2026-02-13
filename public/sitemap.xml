@@ -6,7 +6,7 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://photoresizer-auz.pages.dev/</loc>
+    <loc>https://resizer.khotiyan.com/</loc>
     <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -14,42 +14,42 @@
 
   <!-- Tool Pages -->
   <url>
-    <loc>https://photoresizer-auz.pages.dev/#resize</loc>
+    <loc>https://resizer.khotiyan.com/#resize</loc>
     <lastmod>2026-02-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://photoresizer-auz.pages.dev/#convert</loc>
+    <loc>https://resizer.khotiyan.com/#convert</loc>
     <lastmod>2026-02-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://photoresizer-auz.pages.dev/#compress</loc>
+    <loc>https://resizer.khotiyan.com/#compress</loc>
     <lastmod>2026-02-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://photoresizer-auz.pages.dev/#pdf-to-image</loc>
+    <loc>https://resizer.khotiyan.com/#pdf-to-image</loc>
     <lastmod>2026-02-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://photoresizer-auz.pages.dev/#image-to-pdf</loc>
+    <loc>https://resizer.khotiyan.com/#image-to-pdf</loc>
     <lastmod>2026-02-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://photoresizer-auz.pages.dev/#background-remove</loc>
+    <loc>https://resizer.khotiyan.com/#background-remove</loc>
     <lastmod>2026-02-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
