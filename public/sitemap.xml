@@ -6,51 +6,51 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://resizer.khotiyan.com/</loc>
-    <lastmod>2026-02-10</lastmod>
+    <loc>https://photoresizer-auz.pages.dev/</loc>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Tool Pages (if you add separate pages later) -->
+  <!-- Tool Pages -->
   <url>
-    <loc>https://resizer.khotiyan.com/#resize</loc>
-    <lastmod>2026-02-10</lastmod>
+    <loc>https://photoresizer-auz.pages.dev/#resize</loc>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://resizer.khotiyan.com/#convert</loc>
-    <lastmod>2026-02-10</lastmod>
+    <loc>https://photoresizer-auz.pages.dev/#convert</loc>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://resizer.khotiyan.com/#compress</loc>
-    <lastmod>2026-02-10</lastmod>
+    <loc>https://photoresizer-auz.pages.dev/#compress</loc>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://resizer.khotiyan.com/#pdf-to-image</loc>
-    <lastmod>2026-02-10</lastmod>
+    <loc>https://photoresizer-auz.pages.dev/#pdf-to-image</loc>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://resizer.khotiyan.com/#image-to-pdf</loc>
-    <lastmod>2026-02-10</lastmod>
+    <loc>https://photoresizer-auz.pages.dev/#image-to-pdf</loc>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://resizer.khotiyan.com/#background-remove</loc>
-    <lastmod>2026-02-10</lastmod>
+    <loc>https://photoresizer-auz.pages.dev/#background-remove</loc>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
